@@ -1,0 +1,12 @@
+%nav.navbar.navbar-light.bg-light
+  .container-fluid
+    .navbar-brand
+      = link_to root_path, class: "btn btn-default" do
+        %i.fas.fa-graduation-cap{:class => "d-inline-block align-text-top"}
+        Home
+      = link_to courses_path, class: "btn btn-default" do
+        %i.fas.fa-book
+        Courses
+      = link_to privacy_policy_path, class: "btn btn-info" do
+        %i.fas.fa-file-word
+        Privacy Policy
