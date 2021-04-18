@@ -7,6 +7,18 @@
       = link_to courses_path, class: "btn btn-default" do
         %i.fas.fa-book
         Courses
-      = link_to privacy_policy_path, class: "btn btn-info" do
+      = link_to privacy_policy_path, class: "btn btn-outline-info" do
         %i.fas.fa-file-word
         Privacy Policy
+    .user_options.d-flex
+      - if current_user
+        %strong Current User:&nbsp
+        = current_user.email
+        &nbsp
+        = link_to 'Account Settings', edit_user_registration_path
+        &nbsp
+        = link_to 'Sign Out', destroy_user_session_path, method: :delete
+      - else 
+        = link_to 'Sign Up', new_user_registration_path
+        &nbsp
+        = link_to 'Sign In', new_user_session_path

@@ -4,4 +4,6 @@
 
 * fix alerts - not displaying close button.  apply uniformly to all pages using partial _alerts.html.haml
 
-* other stuff ...
+* style user session pages (sign up, sign in, edit user)
+
+* style navbar
