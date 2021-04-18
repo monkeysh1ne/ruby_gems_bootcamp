@@ -13,5 +13,7 @@
   %body
     .container
       = render 'layouts/navigation'
+      - if notice
+        = render 'layouts/alerts'
       = yield
   
