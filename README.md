@@ -8,5 +8,5 @@
 
 * style navbar
 
-* user cannot create course - review problem alert but fields ticked
+* ~~user cannot create course - review problem alert but fields ticked~~
 
