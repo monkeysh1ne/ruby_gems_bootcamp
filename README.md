@@ -7,3 +7,6 @@
 * style user session pages (sign up, sign in, edit user)
 
 * style navbar
+
+* user cannot create course - review problem alert but fields ticked
+

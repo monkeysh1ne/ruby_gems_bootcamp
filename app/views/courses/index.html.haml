@@ -4,12 +4,14 @@
     %tr
       %th Title
       %th Description
+      %th User Id
       %th{:colspan => "2"}
   %tbody
     - @courses.each do |course|
       %tr
         %td= link_to course.title.capitalize(), course
         %td= course.description
+        %td= course.user_id
         %td= link_to 'Edit', edit_course_path(course), class: 'btn btn-sm btn-success'
         %td= link_to 'Delete', course, method: :delete, data: { confirm: 'Are you sure?' }, class: 'btn btn-sm btn-danger'
 %br/
