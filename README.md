@@ -2,7 +2,7 @@
 
 ## To Do
 
-* fix alerts - not displaying close button.  apply uniformly to all pages using partial _alerts.html.haml
+* fix alerts - not displaying close button. also, code not per course. apply uniformly to all pages using partial _alerts.html.haml
 
 * style user session pages (sign up, sign in, edit user)
 
